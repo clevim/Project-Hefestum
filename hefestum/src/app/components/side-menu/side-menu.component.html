@@ -1,0 +1,11 @@
+
+<!-- BEGIN: ed8c6549bwf9 -->
+<link rel="stylesheet" type="text/css" href="../../../../node_modules/primeicons/primeicons.css">
+<!-- END: ed8c6549bwf9 -->
+
+<p-sidebar #sidebarRef [(visible)]="sidebarVisible">
+    <ng-template pTemplate="header">Header Content</ng-template>
+      <ng-template pTemplate="content">Body Content</ng-template>
+      <ng-template pTemplate="footer">Footer Content</ng-template>
+</p-sidebar>
+<p-button (click)="sidebarVisible = true"  [raised]="true" label="SIdeMenu" icon="pi pi-arrow-right"></p-button>
